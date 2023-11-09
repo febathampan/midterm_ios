@@ -16,15 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CJL-C4-kxd">
-                                <rect key="frame" x="76" y="245" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tux-161406_1280" translatesAutoresizingMaskIntoConstraints="NO" id="CJL-C4-kxd">
+                                <rect key="frame" x="121.66666666666669" y="351" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Pdt-nF-WKf"/>
+                                    <constraint firstAttribute="height" constant="150" id="URB-OD-7vn"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CJL-C4-kxd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BQu-lI-qnM"/>
-                            <constraint firstItem="CJL-C4-kxd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nY0-46-EmS"/>
+                            <constraint firstItem="CJL-C4-kxd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lfP-CZ-2ch"/>
+                            <constraint firstItem="CJL-C4-kxd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ttC-3e-kAo"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -34,6 +38,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tux-161406_1280" width="1252" height="1280"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
